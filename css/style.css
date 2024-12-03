@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/bg.jpg');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.input-box{
+    border: 1px solid red;
+    display: flex;
+    margin: 30px auto;
+    width: 800px;
+    justify-content: space-between;
+}
+.input-box1{
+    text-align: center;
+}
+
+.input{
+    margin: 10px 20px;
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
